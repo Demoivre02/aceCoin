@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+
+html,body{
+  
+}
+
+.countdown-container {
+  display: flex;
+  align-items: center;
+}
+
+.digit-box {
+  display: flex;
+  justify-content: center;
+  background: #1E2A53;
+  align-items: center;
+  width: 30px;
+  height: 40px;
+  color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1px;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.separator {
+  margin: 0 4px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.span1{
+  font-size: 14px;
+  font-weight: "500";
+}
+.span2{
+  color: #9BA2B8;
+  font-size: 18px;
+}
+p,.slash{
+  font-family: 'DM Sans', sans-serif; 
+  color: #1E2A53;
+}
+.slash{
+  font-weight: 700;
+  font-size: 20px;
+}
